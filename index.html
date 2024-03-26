@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Gustavo Silva</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img id="home" class="fundo" src="assets/img/fundo.jpg" alt="">
+            <img id="home" class="fundo-mobile" src="assets/img/fundomolibe.jpg" alt="">
+            <h2 class="titulo-2">Eu sou</h2>
+            <h1 class="titulo-1">Web Developer</h1>
+            <div class="icones">
+                <a href=""><img  class="github" src="assets/img/github.png" alt=""></a>
+                <a href=""><img class="linkedin" src="assets/img/linkedin.png" alt=""></a>
+            </div>
+        </div>
+        <section id="sobre">
+            <div class="sobre-cabecalho">
+                <h2 class="sobre-titulo">Sobre</h2>
+                <div>
+                    <div class="foto-icon">
+                        <img src="assets/img/Foto.png" alt="">
+                        <div class="icons">
+                            <img class="iconn" src="assets/img/html.png" alt="">
+                            <img class="iconn" src="assets/img/css-3.png" alt="">
+                            <img class="iconn" src="assets/img/java-script.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-descricao">
+                <p class="descricao-p">Me chamo Gustavo, tenho 18 anos, atualmete estou cursando Desenvolvimento de Software Multplataforma
+                    na Fatec de Indaiatuba, gosto muito de descobrir tecnologias, principlamnte de programação, aprender coisas novas,
+                    já estudava programação antes mesmo de entrar na faculdade, tenho diversos projetos feitos em HTML, CSS, javaScript e outras linguagens
+                    s
+                </p>
+                <div>
+                    <p class="descricao-p2">Nome: Gustavo Silva de Carvalho</p>
+                    <p class="descricao-p2">Idade: 18</p>
+                    <p class="descricao-p2">Formação academica: Cursando DSM</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h2 class="projetos-titulo">Projetos</h2>
+
+            <div class="projetos-cards">
+                <div class="projetos-card">
+                    <h3 class="card-titulo">Fokus</h3>
+                    <img class="card-img" src="assets/img/fokus.png" alt="">
+                    <a href=""><button class="card-botao">Ver</button></a>
+                </div>
+
+                <div class="projetos-card">
+                    <h3 class="card-titulo">Apeperia</h3>
+                    <img class="card-img" src="assets/img/apeperia.png" alt="">
+                    <a href=""><button class="card-botao">Ver</button></a>
+                </div>
+
+                <div class="projetos-card">
+                    <h3 class="card-titulo">Alurabooks</h3>
+                    <img class="card-img" src="assets/img/alurabooks.png" alt="">
+                    <a href=""><button class="card-botao">Ver</button></a>
+                </div>
+
+                <div id="projetos-card" class="projetos-card hide">
+                    <h3 class="card-titulo">Serenatto</h3>
+                    <img class="card-img" src="assets/img/serenatto.png" alt="">
+                    <a href=""><button class="card-botao">Ver</button></a>
+                </div>
+
+                <div id="projetos-card1" class="projetos-card hide">
+                    <h3 class="card-titulo">Secreto</h3>
+                    <img class="card-img" src="assets/img/secreto.png" alt="">
+                    <a href=""><button class="card-botao">Ver</button></a>
+                </div>
+            </div>
+
+            <div id="ver-mais" class="ver-mais">
+                <p>Ver mais</p>
+                <img id="action-btn" src="assets/img/seta.png" alt="">
+            </div>
+            <div id="ver-menos" class="ver-mais hide">
+                <p>Ver menos</p>
+                <img id="action-btn2" src="assets/img/setamenos.png" alt="">
+            </div>
+
+        </section>
+        <footer id="contato" class="footer">
+            <div class="footer-dados">
+                <img src="assets/img/email1.png" alt="">
+                <p>gustacar2005@gmail.com</p>
+            </div>
+            <div class="footer-dados">
+                <img src="assets/img/phone-call.png" alt="">
+                <p>(19)99246-0274</p>
+            </div>
+            <div class="footer-dados">
+                <img class="footer-icone" src="assets/img/github.png" alt="">
+                <p>GustavoSilvadeCarvalho</p>
+            </div>
+            <div class="footer-dados">
+                <img class="footer-icone" src="assets/img/linkedin.png" alt="">
+                <p>Gustavo Silva de Carvalho</p>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
